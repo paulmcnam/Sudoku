@@ -159,7 +159,8 @@ define ('PDF_FONT_NAME_MAIN', 'helvetica');
 /**
  * Default main font size.
  */
-define ('PDF_FONT_SIZE_MAIN', 10);
+//define ('PDF_FONT_SIZE_MAIN', 10);
+define ('PDF_FONT_SIZE_MAIN', 14);
 
 /**
  * Default data font name.
@@ -169,7 +170,8 @@ define ('PDF_FONT_NAME_DATA', 'helvetica');
 /**
  * Default data font size.
  */
-define ('PDF_FONT_SIZE_DATA', 8);
+//define ('PDF_FONT_SIZE_DATA', 8);
+define ('PDF_FONT_SIZE_DATA', 12);
 
 /**
  * Default monospaced font name.
@@ -194,7 +196,7 @@ define('K_CELL_HEIGHT_RATIO', 1.25);
 /**
  * Title magnification respect main font size.
  */
-define('K_TITLE_MAGNIFICATION', 1.3);
+define('K_TITLE_MAGNIFICATION', 1.5);
 
 /**
  * Reduction factor for small font.
