@@ -40,23 +40,23 @@ unset($_POST);
 if ($numOfGrids > 0 && $numOfGrids < 101) {
 
     $puzzle = new Puzzle(new Backtracking());
-    $sudokuSolver = new Backtracking();
+   // $sudokuSolver = new Backtracking();
 
 
 
     // Generate $numOfGrids of SUDOKU grids
     $arrayOfPuzzles = array();
-    $arrayOfSolutions = array();
+  //  $arrayOfSolutions = array();
 
     for ($i = 0; $i < $numOfGrids; $i++) {
         $arrayOfPuzzles[] = $puzzle->getPuzzle($level);
-        $arrayOfSolutions[] = $sudokuSolver->($arrayOfPuzzles[]);
+ //       $arrayOfSolutions[] = $sudokuSolver->($arrayOfPuzzles[]);
     }
 
     // create new PDF document
     $pdf = new PDFGenerator(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
     $pdf->SetAuthor('Cute Huur');
-    $pdf->SetTitle('Sudoku 003');
+    $pdf->SetTitle('Sudoku 004');
     $pdf->SetSubject('sudoku puzzles');
     $pdf->setPrintHeader(false);
 $pdf->setPrintFooter(false);
