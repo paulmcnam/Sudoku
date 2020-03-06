@@ -99,17 +99,17 @@ define ('PDF_PAGE_ORIENTATION', 'P');
 /**
  * Document creator.
  */
-define ('PDF_CREATOR', 'TCPDF');
+define ('PDF_CREATOR', 'Cute Huur');
 
 /**
  * Document author.
  */
-define ('PDF_AUTHOR', 'TCPDF');
+define ('PDF_AUTHOR', 'Cute Huur');
 
 /**
  * Header title.
  */
-define ('PDF_HEADER_TITLE', 'Sudoku Puzzle');
+define ('PDF_HEADER_TITLE', 'Sudoku Puzzle 001');
 
 /**
  * Header description string.
@@ -129,7 +129,7 @@ define ('PDF_MARGIN_HEADER', 5);
 /**
  * Footer margin.
  */
-define ('PDF_MARGIN_FOOTER', 10);
+define ('PDF_MARGIN_FOOTER', 5);
 
 /**
  * Top margin.
@@ -160,7 +160,7 @@ define ('PDF_FONT_NAME_MAIN', 'helvetica');
  * Default main font size.
  */
 //define ('PDF_FONT_SIZE_MAIN', 10);
-define ('PDF_FONT_SIZE_MAIN', 14);
+define ('PDF_FONT_SIZE_MAIN', 20);
 
 /**
  * Default data font name.
@@ -171,7 +171,7 @@ define ('PDF_FONT_NAME_DATA', 'helvetica');
  * Default data font size.
  */
 //define ('PDF_FONT_SIZE_DATA', 8);
-define ('PDF_FONT_SIZE_DATA', 12);
+define ('PDF_FONT_SIZE_DATA', 16);
 
 /**
  * Default monospaced font name.

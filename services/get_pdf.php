@@ -52,7 +52,7 @@ if ($numOfGrids > 0 && $numOfGrids < 101) {
     $pdf->setFormating();
     $pdf->setPuzzleCollection($arrayOfPuzzles);
     $pdf->renderPDF();
-    $pdf->Output('sudoku.pdf', 'I');
+    $pdf->Output('sudoku01.pdf', 'I');
 }
 
 

@@ -49,7 +49,7 @@ class PDFGenerator extends TCPDF {
         self::SetFont('');
 
 // set font
-        self::SetFont('helvetica', '', 12);
+        self::SetFont('helvetica', '', 16);
     }
 
     public function setPuzzleCollection(Array $puzzleCollection) {
@@ -93,7 +93,7 @@ class PDFGenerator extends TCPDF {
 
     private function gridToHTML($grid) {
         // HTML table styling and parent tag
-        $HTMLtable = '<table style="border-collapse: collapse; border: 3px solid #000; width: 225px;">';
+        $HTMLtable = '<table style="border-collapse: collapse; border: 3px solid #000; width: 275px;">';
         
         // Create a 9x9 SUDOKU grid
         for ($i = 0; $i < 9; $i++) {
@@ -101,7 +101,7 @@ class PDFGenerator extends TCPDF {
             for ($j = 0; $j < 9; $j++) {
                 // Every 3rd <td> border is thicker then the rest to represent
                 // a classic SUDOKU grid formating
-                $HTMLtable .= '<td style="height: 25px; border-right:  ' .
+                $HTMLtable .= '<td style="height: 35px; border-right:  ' .
                         (($j + 1) % 3 === 0 ? '3' : '1') .
                         'px solid #000; border-bottom: ' .
                         (($i + 1) % 3 === 0 ? '3' : '1') .
