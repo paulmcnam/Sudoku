@@ -37,7 +37,7 @@ $level = $_POST['level'];
 unset($_POST);
 
 // the max number of grids available per PDF document is hardcoded to 100 grids
-if ($numOfGrids > 0 && $numOfGrids < 101) {
+if ($numOfGrids > 0 && $numOfGrids < 1001) {
 
     $puzzle = new Puzzle(new Backtracking());
 
@@ -52,7 +52,7 @@ if ($numOfGrids > 0 && $numOfGrids < 101) {
     $pdf->setFormating();
     $pdf->setPuzzleCollection($arrayOfPuzzles);
     $pdf->renderPDF();
-    $pdf->Output('sudoku01.pdf', 'I');
+    $pdf->Output('sudoku02.pdf', 'I');
 }
 
 

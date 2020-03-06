@@ -109,7 +109,7 @@ define ('PDF_AUTHOR', 'Cute Huur');
 /**
  * Header title.
  */
-define ('PDF_HEADER_TITLE', 'Sudoku Puzzle 001');
+define ('PDF_HEADER_TITLE', 'Sudoku Puzzle 002');
 
 /**
  * Header description string.
