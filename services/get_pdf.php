@@ -56,7 +56,7 @@ if ($numOfGrids > 0 && $numOfGrids < 101) {
     // create new PDF document
     $pdf = new PDFGenerator(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
     $pdf->SetAuthor('Cute Huur');
-    $pdf->SetTitle('Sudoku 004');
+    $pdf->SetTitle('Sudoku 005');
     $pdf->SetSubject('sudoku puzzles');
     $pdf->setPrintHeader(false);
 $pdf->setPrintFooter(false);

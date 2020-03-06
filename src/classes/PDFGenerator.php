@@ -81,7 +81,7 @@ class PDFGenerator extends TCPDF {
             if ($i % 2 === 0) {
                 parent::writeHTMLCell('80', '', '', $y, $txt, 0, 0, 1, true, 'J', true);
             } else {
-                parent::writeHTMLCell('80', '', '', '', $txt, 0, 1, 1, true, 'J', true);
+                parent::writeHTMLCell('80', '', '', '', $txt, 0, 1, 1, true, 'R', true);
             }
         }
     }
@@ -101,7 +101,7 @@ class PDFGenerator extends TCPDF {
             for ($j = 0; $j < 9; $j++) {
                 // Every 3rd <td> border is thicker then the rest to represent
                 // a classic SUDOKU grid formating
-                $HTMLtable .= '<td style="height: 30px; border-right:  ' .
+                $HTMLtable .= '<td style="height: 28px; border-right:  ' .
                         (($j + 1) % 3 === 0 ? '3' : '1') .
                         'px solid #000; border-bottom: ' .
                         (($i + 1) % 3 === 0 ? '3' : '1') .
