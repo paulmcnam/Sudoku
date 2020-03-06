@@ -101,7 +101,7 @@ class PDFGenerator extends TCPDF {
             for ($j = 0; $j < 9; $j++) {
                 // Every 3rd <td> border is thicker then the rest to represent
                 // a classic SUDOKU grid formating
-                $HTMLtable .= '<td style="height: 35px; border-right:  ' .
+                $HTMLtable .= '<td style="height: 30px; border-right:  ' .
                         (($j + 1) % 3 === 0 ? '3' : '1') .
                         'px solid #000; border-bottom: ' .
                         (($i + 1) % 3 === 0 ? '3' : '1') .
