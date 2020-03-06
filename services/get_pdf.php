@@ -40,11 +40,17 @@ unset($_POST);
 if ($numOfGrids > 0 && $numOfGrids < 101) {
 
     $puzzle = new Puzzle(new Backtracking());
+    $sudokuSolver = new Backtracking();
+
+
 
     // Generate $numOfGrids of SUDOKU grids
     $arrayOfPuzzles = array();
+    $arrayOfSolutions = array();
+
     for ($i = 0; $i < $numOfGrids; $i++) {
         $arrayOfPuzzles[] = $puzzle->getPuzzle($level);
+        $arrayOfSolutions[] = $sudokuSolver->($arrayOfPuzzles[]);
     }
 
     // create new PDF document
