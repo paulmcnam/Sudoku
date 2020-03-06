@@ -38,7 +38,7 @@
                             <option value="hard">Hard</option>
                         </select><br/>
                         <label>Select the number of puzzles</label><br/>
-                        <input type="number" id="num-of-grids" min="1" max="1000" autocomplete="off"/><br/>
+                        <input type="number" id="num-of-grids" min="1" max="100" autocomplete="off"/><br/>
                         <button type="button" id="get-pdf-btn" class="grid-control-btn">Get PDF</button>
                     </form>
                 </div>
