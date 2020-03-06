@@ -93,7 +93,7 @@ class PDFGenerator extends TCPDF {
 
     private function gridToHTML($grid) {
         // HTML table styling and parent tag
-        $HTMLtable = '<table style="border-collapse: collapse; border: 3px solid #000; width: 275px;">';
+        $HTMLtable = '<table style="border-collapse: collapse; border: 3px solid #000; width: 325px;">';
         
         // Create a 9x9 SUDOKU grid
         for ($i = 0; $i < 9; $i++) {
