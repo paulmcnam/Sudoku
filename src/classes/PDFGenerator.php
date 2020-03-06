@@ -72,7 +72,7 @@ class PDFGenerator extends TCPDF {
             }
             
             // Calculate offset for second column of puzzles
-            $y = ($i > 1) ? self::getY() + 7 : self::getY();
+            $y = ($i > 1) ? self::getY() + 17 : self::getY();
 
             // Create a text to print out
             $txt = self::gridToHTML($this->puzzleCollection[$i]);
@@ -93,7 +93,7 @@ class PDFGenerator extends TCPDF {
 
     private function gridToHTML($grid) {
         // HTML table styling and parent tag
-        $HTMLtable = '<table style="border-collapse: collapse; border: 3px solid #000; width: 325px;">';
+        $HTMLtable = '<table style="border-collapse: collapse; border: 3px solid #000; width: 300px;">';
         
         // Create a 9x9 SUDOKU grid
         for ($i = 0; $i < 9; $i++) {
