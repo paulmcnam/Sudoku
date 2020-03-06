@@ -80,6 +80,7 @@ class PDFGenerator extends TCPDF {
             // Switch between two columns to print $txt
             if ($i % 2 === 0) {
                 parent::writeHTMLCell('80', '', '', $y, $txt, 0, 0, 1, true, 'J', true);
+                parent::writeHTMLCell('80', '', '', '', 'BBBB', 0, 0, 1, true, 'J', true);
             } else {
                 parent::writeHTMLCell('80', '', '', '', $txt, 0, 1, 1, true, 'R', true);
             }
