@@ -4,14 +4,18 @@
 */
 
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
+
 /* ----- RESET ----- */
-html, body {
+
+html,
+body {
     padding: 0;
     margin: 0;
     height: 100%;
     background-color: #CBD9BB;
     font-family: 'PT Sans Narrow', sans-serif;
 }
+
 h1 {
     padding: 0;
     margin: 0;
@@ -26,6 +30,8 @@ ul {
 table {
     border-collapse: collapse;
 }
+
+
 /*---------------------------------------------*/
 
 .container {
@@ -137,7 +143,7 @@ h1 {
 
 #pdf-generator {
     display: flex;
-    background-color:  #101E24;
+    background-color: #101E24;
     padding: 2%;
     align-content: center;
 }
@@ -194,23 +200,38 @@ h3 {
     color: black;
 }
 
+
 /* ----- Modal Styling ----- */
+
+
 /* The Modal (background) */
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
+
 /* Modal Content */
+
 .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -219,7 +240,9 @@ h3 {
     width: 80%;
 }
 
+
 /* The Close Button */
+
 .close {
     color: #aaaaaa;
     float: right;
@@ -233,11 +256,13 @@ h3 {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 /* ----- Modal Styling End -----  */
 
 
-
 /* ----- Grid Styling ----- */
+
 .cell {
     padding: 0;
     height: 25px;
@@ -246,12 +271,15 @@ h3 {
     border-style: solid;
     border-width: 1px;
     color: #101E24;
+    background-color: #FFFFFF;
 }
+
 
 /* ----- Grid Styling End -----  */
 
 
 /* ---- Borders ---- */
+
 .border-left {
     border-left: solid medium
 }
@@ -268,9 +296,12 @@ h3 {
     border-top: solid medium
 }
 
+
 /* ----- Borders End ----- */
 
+
 /* ----- Cell Button Styling ----- */
+
 .click {
     padding: 0;
     margin: 0;
@@ -288,24 +319,23 @@ h3 {
     border: solid red thin;
 }
 
+
 /* ----- Cell Button Styling End ----- */
 
+
 /* ----- MEDIAQUERIES -----*/
+
+
 /* start of desktop styles */
 
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
-
 }
 
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-
 }
 
 @media screen and (max-width: 479px) {
     /* start of phone styles */
-
 }
-
-
